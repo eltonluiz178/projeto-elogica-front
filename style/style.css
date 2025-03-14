@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button {
+    border: none;          
+    background: none;      
+    outline: none;         
+    padding: 0;            
+    margin: 0;             
+    cursor: pointer;       
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+section {
+    height: 100dvh;
+}
+
+.home {
+    height: 130dvh;
+    background-color: #f9ce89; 
+}
+
+.nav-bar {
+    height: 12dvh;
+    background-color: #f8ce77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar .adventurer a {
+    margin-left: 9rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-bar .botoes-nav-bar a {
+    padding : 0.8rem;
+    font-size: 0.8rem;
+    font-weight:600;
+    border-radius: 5px;
+}
+
+.nav-bar .botoes-nav-bar a:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+.nav-bar .inicie-sua-aventura {
+    width: 11.5rem;
+    height: 2.8rem;
+    margin-right: 4rem;
+    font-size: 0.9rem;
+    background-color: #ffc107;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.nav-bar .inicie-sua-aventura:hover{
+    background-color: #f67707;
+}
+
+.corpo {
+    margin-top: 5rem;
+}
+
+.corpo .inicio .texto-imagem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.corpo .inicio .texto {
+    margin-top: 9rem;
+    margin-left: 9rem;
+    width: 50vw;
+}
+
+.corpo .inicio .texto .titulo {
+    font-size: 1.5rem;
+}
+
+.corpo .inicio .texto span {
+    color:#ffa600;
+}
+
+.corpo .inicio .texto .paragrafo{
+    font-size: 13px;
+    line-height: 20px;
+    width: 28dvw;
+    margin-top: 1dvh;
+}
+
+.corpo .inicio .texto .textfield {
+    width: 50vw;
+}
+
+.corpo .inicio .texto .textfield input{
+    width: 8rem;
+    height: 1.8rem;
+    align-items: center;
+    border-radius: 0.3rem;
+    padding: 5px;
+    margin: 8px;
+    border-color: #7e7b75;
+}
+
+.corpo .inicio .texto .botao-iniciar {
+    width: 8rem;
+    height: 2rem;
+    margin-right: 4rem;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #ffa600;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.corpo .inicio .texto .botao-iniciar:hover {
+    background-color: #ffc107;
+}
+
+.inicio img {
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    margin-right: 5vw;
+}
+
+.rodape {
+    margin-left: 5vw;
+    margin-top: 10rem;
+    width: 90vw;
+    height: 25vh;
+    background-color: rgba(228, 221, 207, 0.5);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.rodape li {
+    list-style: none;
+    width: 15%;
+    padding: 0.7rem;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.rodape li h3 {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.rodape li h4 {
+    font-size: 1.1rem;
+    margin: 0.5rem;
+}
+
+.rodape li:hover:not(:first-child) {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.segunda-tela {
+    background-color: black;
+}
+
