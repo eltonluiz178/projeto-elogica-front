@@ -191,7 +191,7 @@ div{
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 480px) {
     #nav-bar .botoes-nav-bar {
         display: none;
     }
