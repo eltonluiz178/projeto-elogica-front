@@ -44,6 +44,10 @@ div{
     z-index: 1000;
 }
 
+#nav-bar .menu-icon {
+    display: none;
+}
+
 #nav-bar .adventurer a {
     margin-left: 9rem;
     text-decoration: none;
@@ -213,5 +217,24 @@ div{
         justify-content: space-around;
         gap: 0;
         margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    #nav-bar .botoes-nav-bar {
+        display: none;
+    }
+
+    #nav-bar .menu-icon {
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    #footer {
+        height: 20vh;
+    }
+
+    #footer .links-redes .links{
+        display: none;
     }
 }

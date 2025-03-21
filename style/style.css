@@ -5,7 +5,9 @@
     font-family: sans-serif;
 }
 
-html {}
+html {
+    scroll-behavior: smooth;
+}
 
 button {
     border: none;
@@ -37,6 +39,10 @@ div {
     justify-content: space-between;
     align-items: center;
     top: 0;
+}
+
+#nav-bar .menu-icon {
+    display: none;
 }
 
 #nav-bar .adventurer a {
@@ -74,7 +80,7 @@ div {
 }
 
 #primeira-tela {
-    height: 124vh;
+    height: 100%;
     background-color: #f9ce89;
 }
 
@@ -170,7 +176,8 @@ div {
 }
 
 .rodape {
-    margin-top: 20rem;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     width: 90vw;
     background-color: rgba(228, 221, 207, 0.5);
     border-radius: 1rem;
@@ -367,7 +374,6 @@ div {
     align-items: center;
     justify-content: center;
     width: 90vw;
-    height: 400px;
     border-radius: 1rem;
     margin-top: 5rem;
 }
@@ -377,7 +383,7 @@ div {
 }
 
 #quarta-tela .corpo .texto-imagem .texto {
-    width: 800px;
+    width: 80%;
     margin-left: 2rem;
 }
 
@@ -459,6 +465,10 @@ div {
 
     #nav-bar .adventurer a {
         margin-left: 0rem;
+    }
+
+    #nav-bar .botoes-nav-bar a {
+        padding: 0.4rem;
     }
 
     #nav-bar .inicie-sua-aventura {
@@ -631,4 +641,45 @@ div {
     }
 }
 
-@media (max-width: 425px) {}
+@media (max-width: 425px) {
+    #nav-bar .botoes-nav-bar {
+        display: none;
+    }
+
+    #nav-bar .menu-icon {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    #primeira-tela .corpo .inicio .texto {
+        width: 85vw;
+    }
+
+    #primeira-tela .corpo .inicio .texto h1{
+        font-size: 22px;
+    }
+
+    #primeira-tela .corpo .inicio .texto .textfield input {
+        width: 11rem;
+    }
+
+    #primeira-tela .corpo .inicio .texto .textfield .botao-iniciar {
+        width: 11rem;
+    }
+
+    #terceira-tela .corpo .dados-imagem img{
+        width: 100%;
+    }
+
+    #terceira-tela .corpo .dados-imagem .texto-dados .dados{
+        height: 100%;
+    }
+
+    #footer {
+        height: 20vh;
+    }
+
+    #footer .links-redes .links{
+        display: none;
+    }
+}
